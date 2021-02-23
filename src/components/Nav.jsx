@@ -1,8 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "../App.css";
+
+//Importing Images
 import logo from "../images/Logo.svg";
 
-import "../App.css";
+//Importing other packages
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (

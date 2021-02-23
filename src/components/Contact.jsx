@@ -1,6 +1,9 @@
 import React from "react";
 import "../App.css";
 
+// Importing Components
+import Nav from "../components/Nav";
+
 // Importing Images
 import contactImage from "../images/Contact Us.svg";
 import facebookIcon from "../images/Facebook Icon.svg";
@@ -11,6 +14,7 @@ import hiveBackdrop from "../images/Hive Backdrop.svg";
 const Contact = () => {
   return (
     <>
+      <Nav />
       <div className="contact-section">
         <div className="contact-section-left">
           <img src={contactImage} alt="Contact" width="500px" />

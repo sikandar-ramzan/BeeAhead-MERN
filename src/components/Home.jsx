@@ -1,5 +1,8 @@
 import React from "react";
 
+// Importing Components
+import Nav from "../components/Nav";
+
 // Importing Images
 import homeImage from "../images/Home.svg";
 import beeBackdrop from "../images/Bee Backdrop.svg";
@@ -9,11 +12,14 @@ import takeawayCardImage from "../images/Takeaway.svg";
 import reserveCardImage from "../images/Reserve Table.svg";
 import bookCardImage from "../images/Book Hall.svg";
 
+// Importing Other Packages
+import { Link } from "react-router-dom";
+
 const Home = () => {
   return (
     <>
+      <Nav />
       <div className="home-section">
-        {/* <h1>This is the Home Page of BeeAhead</h1> */}
         <div className="home-left-section">
           <h1>
             Welcome to <br /> BeeAhead
@@ -22,7 +28,9 @@ const Home = () => {
             Want to order food for takeaway <br /> or book a marquee/hall? Then
             <br /> beeahead!
           </p>
-          <button className="button-style">Get Started</button>
+          <Link to="/option">
+            <button className="button-style">Get Started</button>
+          </Link>
         </div>
         <div className="home-right-section">
           <img src={homeImage} alt="" width="500px" />

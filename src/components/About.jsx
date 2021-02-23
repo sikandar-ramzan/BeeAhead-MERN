@@ -1,11 +1,17 @@
 import React from "react";
+import "../App.css";
+
+// Importing Components
+import Nav from "../components/Nav";
+
 // Importing Images
 import aboutImage from "../images/About Us.svg";
 import hiveBackdrop from "../images/Hive Backdrop.svg";
-import "../App.css";
+
 const About = () => {
   return (
     <>
+      <Nav />
       <div className="about-section">
         <div className="about-section-left">
           <h1>About Us</h1>

@@ -9,8 +9,10 @@ import FoodOrderPage from "./components/FoodOrderPage";
 import Menu from "./components/Menu";
 import Checkout from "./components/Checkout";
 import Cart from "./components/Cart";
+import AddMenu from "./components/AddMenu";
 
 import BookHallsPage from "./components/BookHallsPage";
+import Marquee from "./components/Marquee";
 
 // Importing Other Packages
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -32,6 +34,9 @@ function App() {
             <Route path="/checkout" component={Checkout} />
             {/* Hall Booking Components */}
             <Route path="/book-halls" component={BookHallsPage} />
+            <Route path="/marquee" component={Marquee} />
+            {/* Adding Menu Components */}
+            <Route path="/add-menu" component={AddMenu} />
           </Switch>
         </div>
       </Router>

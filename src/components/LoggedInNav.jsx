@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 //Importing Components
 
-const LoggedInNav = ({ showCart, linkTo }) => {
+const LoggedInNav = ({ showCart, linkTo, hideCart }) => {
   return (
     <div className="navStyle">
       <img src={logo} alt="" width="200px" />
@@ -26,7 +26,7 @@ const LoggedInNav = ({ showCart, linkTo }) => {
       </ul>
       <div className="nav-buttons">
         <Link to={linkTo} style={{ textDecoration: "none" }}>
-          <button className="cart-btn">
+          <button className="cart-btn" style={hideCart}>
             <i className="fa fa-shopping-cart" onClick={showCart}></i>
           </button>
         </Link>

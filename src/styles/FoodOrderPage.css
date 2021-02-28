@@ -460,3 +460,118 @@
   cursor: pointer;
   border-radius: 50%;
 } */
+
+/* Book Halls Styling */
+
+.book-halls {
+  margin-bottom: 100px;
+}
+
+/* Marquee styling */
+.marquee-section {
+  margin-bottom: 100px;
+}
+.marquee-title {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.marquee-title h1 {
+  font-size: 50px;
+}
+
+.marquee-title p {
+  font-size: 25px;
+  font-weight: 600;
+  opacity: 0.8;
+  line-height: 35px;
+}
+.marquee-details {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.marquee-details .location,
+.marquee-details .phone,
+.marquee-details .email {
+  display: flex;
+  align-items: center;
+}
+
+.marquee-details i {
+  font-size: 30px;
+  color: #ffc400;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.marquee-details p {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.marquee-services {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.marquee-services h1 {
+  font-size: 40px;
+}
+
+.marquee-services-cards {
+  margin-top: 50px;
+  margin-left: -100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  padding: 0px 100px;
+  row-gap: 40px;
+}
+
+.marquee-services-card {
+  display: flex;
+  align-items: center;
+  /* background: #ffc400; */
+  box-shadow: 5px 5px 10px rgb(207, 207, 207);
+  padding: 20px 20px;
+  border-radius: 7px;
+  width: 350px;
+}
+.marquee-services-card i {
+  font-size: 30px;
+  margin-left: 10px;
+  color: #ffc400;
+}
+.marquee-services-card p {
+  font-size: 25px;
+  font-weight: 500;
+  opacity: 0.8;
+  margin-left: 20px;
+}
+
+.marquee-gallery {
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.marquee-gallery h1 {
+  font-size: 40px;
+}
+.marquee-images {
+  margin-left: -100px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  row-gap: 50px;
+  column-gap: 50px;
+}
+
+.book-now-btn {
+  display: flex;
+  justify-content: center;
+}
+.book-now-btn button {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 20px 40px;
+  box-shadow: 5px 5px 10px rgb(207, 207, 207);
+}

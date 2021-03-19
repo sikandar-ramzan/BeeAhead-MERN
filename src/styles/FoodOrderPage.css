@@ -575,3 +575,103 @@
   padding: 20px 40px;
   box-shadow: 5px 5px 10px rgb(207, 207, 207);
 }
+
+.login-signup-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.login-signup-nav .logo {
+  display: flex;
+  align-items: center;
+}
+.login-signup-nav .logo h1 {
+  font-weight: 600;
+  margin-left: 50px;
+  opacity: 0.8;
+}
+.cust-login-section .login-form {
+  display: flex;
+  justify-content: center;
+}
+.cust-login-section .login-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.cust-login-section .login-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.cust-login-section .login-form label {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.cust-login-section .login-form input {
+  outline: none;
+  border: 3px solid #ffc400;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.cust-login-section .login-form input[type="submit"] {
+  outline: none;
+  border: none;
+  font-size: 25px;
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin-top: 50px;
+  background: #ffc400;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cust-signup-section {
+  margin-bottom: 150px;
+}
+.cust-signup-section .signup-form {
+  display: flex;
+  justify-content: center;
+  /* width: 1000px; */
+}
+.cust-signup-section .signup-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.cust-signup-section .signup-form form .col-1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 100px;
+}
+.cust-signup-section .signup-form label {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.cust-signup-section .signup-form input {
+  outline: none;
+  border: 3px solid #ffc400;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.cust-signup-section .signup-form input[type="submit"] {
+  outline: none;
+  border: none;
+  font-size: 25px;
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin-top: 50px;
+  background: #ffc400;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+}
